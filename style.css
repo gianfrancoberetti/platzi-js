@@ -1,0 +1,14 @@
+:root{
+    --principal-color:  #3498db;
+    --secondary-color:  #515a5a;
+    --background-color:  #95a5a6;
+    --text-color:  #17202a;
+
+}
+
+
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    color: var(--text-color);
+}
