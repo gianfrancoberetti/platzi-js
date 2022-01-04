@@ -1,0 +1,40 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.container {
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    background-color: #C7C7C7;
+    border-radius: 8px;
+    place-items: center;
+}
+
+.form label {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    margin-left: 4px;
+    
+}
+
+.form label:nth-child(1){
+    margin-top: 16px;
+}
+
+.form input {
+    margin-bottom: 40px;
+    width: 200px;
+    margin-left: 4px;
+    -webkit-appearance: textfield !important;
+    -moz-appearance:textfield !important;
+}
+

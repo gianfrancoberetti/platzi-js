@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>figuras geometricas</title>
+</head>
+<body>
+    <head><h1 class="title">PROMEDIOS JAVASCRIPT</h1></head>
+    <section>
+        <div class="containter">
+            <form action="" class="form">
+                <h2 class="subtitle">Calculadora</h2>
+                
+                <label for="inputPromedio"> Indica los numeros que quieres promediar</label>
+
+                <input type="text" name="promedios" id="datos">
+                
+                <button class="primary-button" type="button"  onclick="onButtonMediaResult()">Promedio</button>
+
+                <button class="primary-button" type="button" onclick="onButtonMedianaResult()">Mediana</button>
+
+                <button class="primary-button" type="button" onclick="onButtonModaResult()">Moda</button>
+
+            </form>
+
+            <p id="result"></p>
+        </div>
+    </section>
+    <script src="./app.js"></script>
+</body>
+</html>
